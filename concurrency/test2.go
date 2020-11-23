@@ -1,4 +1,4 @@
-package concurrency
+package main
 
 import "fmt"
 func rev(c chan int){

@@ -5,10 +5,25 @@
     <title>Title</title>
 </head>
 <body>
-    <ul>
-        <li>姓名：{{.Username}}</li>
-        <li>密码：{{.Password}}</li>
-        <li>年龄：{{.Age}}</li>
-    </ul>
+  <table border="1">
+      <thead>
+      <tr>
+          <th>序号：</th>
+          <th>姓名：</th>
+          <th>密码：</th>
+          <th>年龄：</th>
+      </tr>
+      </thead>
+      <tbody>
+      {{range $index,$user:=.}}
+          <tr>
+              <td>{{$index}}</td>
+              <td>{{$user.Username}}</td>
+              <td>{{$user.Password}}</td>
+              <td>{{$user.Age}}</td>
+          </tr>
+      {{end}}
+      </tbody>
+  </table>
 </body>
 </html>

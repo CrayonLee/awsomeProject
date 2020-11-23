@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="516d5618-bd5e-40d2-881c-03f0d90761da" name="Default Changelist" comment="" />
+    <list default="true" id="516d5618-bd5e-40d2-881c-03f0d90761da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/concurrency/map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/test5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/test6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin_demo/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin_demo/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin_demo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin_demo/static/go.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin_demo/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin_demo/templates/index.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin_demo/templates/msg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/template/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/template/info1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/template/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/channel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/singleChannel.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/singleChannel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/test1.go.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/test2.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/test2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/test3.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/test3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/test4.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/test4.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +37,14 @@
       <list>
         <option value="Go Application" />
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoDepProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -29,12 +58,16 @@
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="ProjectId" id="1kMqUJ9XjFu3Qnz3MU11338cAeU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -42,36 +75,49 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gin_demo/static" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Go_Projects\awesomeProject\gin_demo\static" />
+      <recent name="D:\WorkSpace\Go_Projects\awesomeProject\gin_demo\templates" />
+      <recent name="D:\WorkSpace\Go_Projects\awesomeProject\web\template" />
+      <recent name="D:\WorkSpace\Go_Projects\awesomeProject\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Go_Projects\awesomeProject\concurrency" />
       <recent name="E:\workspace\go\awesomeProject\reflect" />
       <recent name="E:\workspace\go\awesomeProject\src\logger" />
       <recent name="D:\WorkSpace\Go_Projects\awesomeProject\src" />
       <recent name="D:\WorkSpace\Go_Projects\awesomeProject\student" />
-      <recent name="D:\WorkSpace\Go_Projects\awesomeProject\src\hello\stack" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\Go_Projects\awesomeProject\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build awesomeProject/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build gintest (1)">
+    <configuration name="go build gintest (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/src/myLogger/main.go" />
+      <working_directory value="$PROJECT_DIR$/gin_demo" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/gin_demo/html_render.go" />
+      <package value="gintest" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build logger" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gintest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/gin_demo" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/gin_demo/main.go" />
+      <package value="gintest" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/logger/main.go" />
-      <package value="logger" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/web/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -79,47 +125,47 @@
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/reflect/main.go" />
+      <filePath value="$PROJECT_DIR$/web/template/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build myLogger" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/myLogger/main.go" />
-      <package value="myLogger" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build rwLock.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test6.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/concurrency/lock/rwLock.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/test6.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build awesomeProject/" />
-      <item itemvalue="Go Build.go build myLogger" />
-      <item itemvalue="Go Build.go build rwLock.go" />
-      <item itemvalue="Go Build.go build logger" />
+      <item itemvalue="Go Build.go build test6.go (1)" />
+      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build gintest" />
+      <item itemvalue="Go Build.go build gintest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gintest (1)" />
+        <item itemvalue="Go Build.go build gintest" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build logger" />
-        <item itemvalue="Go Build.go build myLogger" />
-        <item itemvalue="Go Build.go build awesomeProject/" />
-        <item itemvalue="Go Build.go build rwLock.go" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build test6.go (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GO111MOUDLE" value="on" />
+        <entry key="GOPROXY" value="https://goproxy.cn" />
+      </map>
+    </environment>
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="22" key="#GOPATH" timestamp="1605575954829">
@@ -138,38 +184,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1605864461361" />
-    <state x="426" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605863494805">
+    <state x="426" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606133827409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="426" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1605863494805" />
+    <state x="426" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1606133827409" />
     <state width="467" height="466" key="DebuggerActiveHint" timestamp="1605843057002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="467" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1605843057002" />
+    <state x="434" y="190" key="EnvironmentVariablesDialog" timestamp="1606129636407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="434" y="190" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606129636407" />
     <state x="521" y="140" key="FileChooserDialogImpl" timestamp="1605965099403">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605754807659" />
     <state x="521" y="140" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605965099403" />
-    <state width="1493" height="219" key="GridCell.Tab.0.bottom" timestamp="1606039411210">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1323" height="380" key="GridCell.Tab.0.bottom" timestamp="1606136789628">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605869398529" />
+    <state width="1323" height="380" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606136789628" />
     <state width="1493" height="219" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606039411210" />
-    <state width="1493" height="219" key="GridCell.Tab.0.center" timestamp="1606039411210">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1323" height="380" key="GridCell.Tab.0.center" timestamp="1606136789628">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605869398529" />
+    <state width="1323" height="380" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606136789628" />
     <state width="1493" height="219" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606039411210" />
-    <state width="1493" height="219" key="GridCell.Tab.0.left" timestamp="1606039411210">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1323" height="380" key="GridCell.Tab.0.left" timestamp="1606136789627">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605869398528" />
+    <state width="1323" height="380" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606136789627" />
     <state width="1493" height="219" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606039411210" />
-    <state width="1493" height="219" key="GridCell.Tab.0.right" timestamp="1606039411210">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1323" height="380" key="GridCell.Tab.0.right" timestamp="1606136789628">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605869398529" />
+    <state width="1323" height="380" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606136789628" />
     <state width="1493" height="219" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606039411210" />
     <state width="1323" height="2" key="GridCell.Tab.1.bottom" timestamp="1605869398529">
       <screen x="0" y="0" width="1366" height="728" />
@@ -187,19 +237,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="2" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605869398529" />
-    <state x="207" y="9" key="SettingsEditor" timestamp="1605965101044">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1606129739088">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605863633141" />
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606129739088" />
     <state x="207" y="9" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1605965101044" />
     <state x="384" y="0" width="598" height="728" key="find.popup" timestamp="1605869303890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="384" y="0" width="598" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605869303890" />
-    <state x="522" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605859222809">
+    <state x="522" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606135840205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="522" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605859222809" />
+    <state x="522" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606135840205" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
