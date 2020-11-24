@@ -1,0 +1,36 @@
+{{define "book/list.html" }}
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>图书列表</title>
+    </head>
+    <body>
+    <div><a href="/book/toAdd">添加图书</a></div>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>price</th>
+                <th>operation</th>
+            </tr>
+            </thead>
+            <tbody>
+                {{range .data}}
+                    <tr>
+                        <td>{{.Id}}</td>
+                        <td>{{.BookName}}</td>
+                        <td>{{.Price}}</td>
+                        <td>
+                            <a href="/book/edit/{{.Id}}">修改</a>
+                            <a href="/book/delete/{{.Id}}">删除</a>
+                        </td>
+                    </tr>
+                    {{end}}
+            </tbody>
+        </table>
+    </body>
+    </html>
+
+{{end}}
