@@ -8,11 +8,7 @@ import (
 
 var db *sqlx.DB
 
-type book struct {
-	Id int
-	BookName string`db:"book_name"`
-	Price float64
-}
+
 
 func initDB() (err error) {
 	dsn := "root:lzh123456@tcp(39.102.112.15:3306)/bms?charset=utf8mb4&parseTime=True"
@@ -69,18 +65,3 @@ func modify(sql string, args ...interface{}) (err error) {
 
 }
 
-//func main() {
-//	err := initDB()
-//	if err!=nil{
-//		fmt.Printf("init db failed,err:%v\n",err)
-//	}
-//	//books := make([]book, 100)
-//	//queryMulti("select id,book_name,price from book where id>?",books,1)
-//
-//
-//	//modify("update book set book_name =? where id=?","小王子1",4)
-//	//float, err := strconv.ParseFloat("100", 64)
-//	//modify("insert into book(book_name,price) values(?,?)","test",float)
-//	modify("delete from book where id=?",5)
-//	defer db.Close()
-//}

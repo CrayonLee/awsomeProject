@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -103,5 +104,20 @@ func queryPath()  {
 }
 func main() {
 	//queryStirng()
-	queryPath()
+	//queryPath()
+
+	//gin框架操作cookie
+	r := gin.Default()
+
+	r.GET("/cookie", func(context *gin.Context) {
+
+		cookie, err := context.Cookie("gin_cookie")
+		if err!=nil{
+			cookie="NotSet"
+			//设置cookie
+			context.SetCookie("gin_cookie","test",3600,"/","localhost",false,true)
+		}
+		fmt.Printf("cookie value is %s \n",cookie)
+	})
+	r.Run()
 }
